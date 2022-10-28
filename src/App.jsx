@@ -3,6 +3,8 @@ import logo from './logo.svg';
 import './App.css';
 import Banner from './components/Banner';
 import CourseList from './components/CourseList'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap-icons/font/bootstrap-icons.css';
 
 
 
@@ -39,7 +41,7 @@ const schedule = {
 const App = () => {
   // console.log(schedule.courses);
   return (
-    <div>
+    <div className='bootstrap-container'>
       <Banner props={schedule} />
       <CourseList courses={schedule.courses} />
 

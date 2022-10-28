@@ -40,3 +40,15 @@
 button {
   font-size: calc(10px + 2vmin);
 }
+
+.course-card 
+  {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+  }
+
+  .card-list{
+      display: grid;
+      grid-template-columns: repeat(auto-fill, 14rem);
+  }
